@@ -8,7 +8,7 @@ header {
   justify-content: center;
   margin-bottom: 30px;
 }
-img {
+#logo {
   max-width: 10%;
   display: inline;
   padding-right: 20px;
@@ -40,11 +40,11 @@ h1 {
   font-family: Quicksand;
   display: inline;
   color: white;
+  text-align: center;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-family: Quicksand;
-  grid-column: 2/3;
   margin: 30px auto;
 }
 h3 {
@@ -59,19 +59,20 @@ main {
   max-width: 800px;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: auto auto 1fr;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  justify-content: center;
 }
 section {
-  grid-column: 2/3;
   margin: 5px auto;
   border: 1px solid black;
   border-radius: 10px;
-  width: 250px;
+  width: 422px;  
 }
-section p {
-  padding-left: 10px;
+section p, a, img{
+  padding: 10px;
 }
+
 li {
   list-style-type: none;
 }
@@ -88,3 +89,23 @@ footer {
 footer p {
   text-align: center;
 }
+/*-------------------------------------*/
+
+#l02content {
+  font-family: "Source Sans 3";
+  margin: 0 auto;
+  background-color: #f5e8d3;
+  color: #050331;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1500px){
+  #l02main {
+    grid-template-columns: 1fr 1fr;
+  }
+ }
+@media screen and (min-width: 1500px){
+  #l02main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+  
