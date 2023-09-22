@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="styles/base.css">
     <title>Design Pinciples</title>
 </head>
 <body>
-    <div id="l02content">
+    <div class="content">
         <header>
             <h1>Design Principles Document <br> Tem László</h1>
         </header>
@@ -23,8 +23,8 @@
           >Scripture</a
         >
       </nav>
-        <main id="l02main">
-            <section class="l02sec">
+        <main>
+            <section>
                 <h3>Rule of Thirds</h3>
                 <p>Staak/Studio</p>
                 <a href="https://www.staak.co.uk/">https://www.staak.co.uk/</a>
@@ -34,7 +34,7 @@
                     2/3rds of the image and the text fills the lower third.
                 </p>
             </section>
-            <section class="l02sec">
+            <section>
                 <h3>Whitespace</h3>
                 <p>Workleap</p>
                 <a href="https://workleap.com/">https://workleap.com/</a>
@@ -46,7 +46,7 @@
                     greater meaning to each of them.
                 </p>
             </section>
-            <section>
+            <section class="l023rdsec">
                 <h3>Repetition</h3>
                 <p>Jurassic World</p>
                 <a href="https://www.jurassicworld.com/discover/">https://www.jurassicworld.com/discover/</a>
@@ -59,6 +59,15 @@
                 </p>
             </section>
         </main>
+         <footer>
+        <p>
+          <span id="currentYear"></span><br>
+          <span>Tem László</span> <br>
+          <span>Hungary</span>
+        </p>
+        <p id="lastModified"></p>
+      </footer>
     </div>
+    <script src="../scripts/getdates.js"></script>
 </body>
 </html>
