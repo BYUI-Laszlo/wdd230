@@ -111,4 +111,7 @@ footer p {
   main {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .l023rdsec {
+    grid-column: auto;
+  }
 }
