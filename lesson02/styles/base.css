@@ -56,7 +56,6 @@ h3 {
   border-radius: 10px 10px 0 0;
 }
 main {
-  max-width: 800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -69,10 +68,13 @@ section {
   border-radius: 10px;
   width: 422px;  
 }
-section p, a, img{
+section p, a {
   padding: 10px;
 }
-
+img {
+    width: 100%;
+    margin: 0 auto;
+}
 li {
   list-style-type: none;
 }
@@ -92,10 +94,11 @@ footer p {
 /*-------------------------------------*/
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 865px){
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 800px;
   }
   nav {
     flex-direction: row;
@@ -105,11 +108,13 @@ footer p {
   }
   .l023rdsec {
     grid-column: span 2 / span 2;
+    width: auto;
   }
  }
 @media screen and (min-width: 1500px){
   main {
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1300px;
   }
   .l023rdsec {
     grid-column: auto;
