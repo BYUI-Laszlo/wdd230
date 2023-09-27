@@ -19,11 +19,14 @@ nav ul {
   align-items: center;
   justify-content: center;
   height: auto;
+  margin-top: 50px;
+  padding-inline-start: 0px;
 }
 nav a {
   text-decoration: none;
   font-size: 1.5em;
   color: #050331;
+  text-align: right;
 }
 nav a:hover {
   color: #c41111;
@@ -33,6 +36,8 @@ nav a:hover {
   list-style-type: none;
 }
 #burger {
+  width: 49px;
+  height: 39px;
   font-size: 1.5rem;
 	border: 1px solid rgba(0,0,0,.3);
 	padding: 3px 7px 6px;
@@ -54,9 +59,6 @@ nav a:hover {
 }
 .open li a {
   display: block;
-}
-.open li a:hover {
-  color: red;
 }
 .content {
   font-family: "Source Sans 3";
@@ -98,14 +100,24 @@ section {
   margin: 5px auto;
   border: 1px solid black;
   border-radius: 10px;
-  width: 422px;  
+  width: 350px;  
 }
-section p, a, img{
-  padding: 10px;
+section p, a{
+  padding: 10px ;
+}
+section span::before {
+  content: "🗓️";
 }
 section li {
   list-style-type: none;
   padding: 5px;
+}
+#map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 225px;
+    margin-top: 30px;
 }
 footer {
   height: 150px;
@@ -138,5 +150,17 @@ footer p {
   .navigation li {
   display:block;
   }
+  #map-container {    
+    grid-column: span 2 / span 2;    
 }
+  nav a {
+    text-align: left;
+    font-size: 1.5em;
+  }
+  iframe {
+    width: 760px;
+  }
+}
+
+
   
