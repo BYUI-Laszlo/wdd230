@@ -69,7 +69,7 @@ section {
   width: 422px;  
 }
 section p, a {
-  margin: 10px;
+  margin: 2.5%;
 }
 img {
     width: 95%;
@@ -112,9 +112,6 @@ footer p {
     grid-column: span 2 / span 2;
     width: auto;
   }
-  section p, a {
-  margin: 15px;
- }
 }
 @media screen and (min-width: 1500px){
   main {
