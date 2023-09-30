@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+header{
+    background-color: #222629;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+body {
+    background-color: #D1D2D3;
+}
+main {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    gap: 20px;
+    font-family: "Roboto";
+}
+section {
+    grid-column: 2/3;
+    max-width: 600px;
+    margin: 0 auto;
+    border: solid 3px rgba(127, 90, 131, 0.7);
+    border-radius: 10px; 
+    background-color: white;
+}
+section p, section li {
+    padding: 10px;
+}
+h1, h2 {
+    font-family: "Playfair Display";
+    text-align: center;
+}
+h2 {
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    background-color: #A188A6;
+    width: 100%;
+}
+img {
+    width: 100%;
+    margin-top: 10px;
+}
+#wireframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.small-wf {
+    width: 50%;   
+}
+hr {
+    width: 100%;
+    border: solid 1.5px rgba(127, 90, 131, 0.7);
+}

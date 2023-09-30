@@ -27,6 +27,7 @@ nav a {
   font-size: 1.5em;
   color: #050331;
   text-align: right;
+  padding: 10px
 }
 nav a:hover {
   color: #c41111;
@@ -102,7 +103,7 @@ section {
   border-radius: 10px;
   width: 350px;  
 }
-section p, a{
+section p {
   padding: 10px ;
 }
 section span::before {
@@ -148,7 +149,7 @@ footer p {
     display: none;
   }
   .navigation li {
-  display:block;
+  display: block;
   }
   #map-container {    
     grid-column: span 2 / span 2;    
