@@ -40,8 +40,9 @@ h1 {
     position: absolute;
 	top: 110px;
 	left: 10px;
-    background-color: #7F5A83;
+    background-color: #5D4360;
     font-size: 1.5rem;
+    color: white;
 }
 #burger::before {
     content: "▼";
@@ -78,7 +79,7 @@ nav a:hover {
 }
 .active {
     /*background-color:#A188A6*/
-    border: solid 3px #7F5A83;
+    border: solid 3px #5D4360;
     border-radius: 10px;
 }
 main {
@@ -95,7 +96,7 @@ main {
 .button-box {
     height: 50px;
     width: 150px;
-    background-color: #7F5A83;
+    background-color: #5D4360;
     grid-column: 1/2;
     grid-row: 1/2;
     z-index: 1;
@@ -113,16 +114,16 @@ main {
     background-color: #A188A6;
 }
 .button-box:hover  .join-button {
-    color: white;
+    color: brown;
 }
 .button-box:active {
-    background-color: #7F5A83;
+    background-color: #5D4360;
     box-shadow: 0 5px rgba(0,0,0,.3);
     transform: translateY(4px);
 }
 .join-button {   
     text-decoration: none;  
-    color: black;
+    color: white;
     cursor: pointer;
     outline: none;
     border: none;
