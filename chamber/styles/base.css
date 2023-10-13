@@ -103,9 +103,11 @@ nav a:hover {
   width: 100%;
 }
 .active {
-    /*background-color:#A188A6*/
     border: solid 3px #5D4360;
     border-radius: 10px;
+}
+.active.dark {
+    border: solid 3px #bb7cc2;
 }
 main {
     display: grid;

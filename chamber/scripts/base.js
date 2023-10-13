@@ -13,4 +13,5 @@ document.querySelector("#dark-btn").addEventListener("click", () => {
 	document.querySelector(".weather").classList.toggle("dark");
 	document.querySelector("body").classList.toggle("dark");
 	document.querySelector("nav").classList.toggle("dark");
+	document.querySelector(".active").classList.toggle("dark");
 });
