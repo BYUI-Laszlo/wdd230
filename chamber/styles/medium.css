@@ -1,0 +1,80 @@
+@media screen and (min-width: 550px){
+    header {
+        display: grid;
+        grid-template-columns: 260px 3fr 10%;
+    }
+    .logo {
+        width: 238.250px;
+        max-height: 75.375px;
+        padding: 0;
+        padding-left: 20px;
+        display: flex;
+        align-self: center;
+        justify-self: left;
+    }
+    h1 {
+        font-size: 1.5rem;
+        padding: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    #dark-btn {
+        width: 37px;
+        height: 37px;
+        font-size: 1.5rem;
+    }
+    #burger {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0; 
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding: 10px;
+    }
+    nav li {
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .hero-box {
+        height: 400px;
+        grid-column: 1/3;
+    }
+    .button-box {
+        position: absolute;
+        top: 170px;
+        left: 30px;
+    }
+    .hero-box img {
+        height: 100%;
+    }
+    .spotlight {
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .events , .weather {
+        width: 92%;
+    }
+    .footer-contact p, .footer-contact a {
+        font-size: 1rem;
+    }
+    .social {
+        justify-content: end;
+    }
+    .social a {
+        margin: 10px;
+    }
+    #lastModified {
+        font-size: 1rem;
+    }
+}
