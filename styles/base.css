@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Sans+3&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Sans+3&family=Courgette&display=swap");
 header {
   margin: 0 auto;
   height: 150px;
@@ -35,6 +35,22 @@ nav a:hover {
 .navigation li {
   display: none;
   list-style-type: none;
+}
+.hero{
+  position: relative;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.temple-name {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.temple-name p {
+  font-family: Courgette;
+  font-size: 1.5rem;
 }
 #burger {
   width: 49px;
@@ -138,6 +154,9 @@ footer p {
 @media screen and (min-width: 800px){
   main {
     grid-template-columns: 1fr 1fr;
+  }
+  .hero {
+    grid-column: 1/3  ;
   }
   nav ul{
     flex-direction: row;
