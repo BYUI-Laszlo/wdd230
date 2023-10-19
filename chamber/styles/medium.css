@@ -46,7 +46,6 @@
         gap: 30px;
     }
     .hero-box {
-        height: 400px;
         grid-column: 1/3;
     }
     .button-box {

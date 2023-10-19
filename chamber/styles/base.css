@@ -115,10 +115,13 @@ main {
     gap: 10px;
 }
 .hero-box {
+    position: relative;
+    grid-column: 1/2;
+    /*grid-row: 1/2;*/
+}
+.hero-box img {
     width: 100%;
     height: auto;
-    grid-column: 1/2;
-    grid-row: 1/2;
 }
 .button-box {
     height: 50px;
@@ -184,7 +187,13 @@ h2 {
     border-radius: 10px 10px 0 0;
     padding: 10px;
 }
-.events.dark h2 , .weather.dark h2, .spotlight.dark h2 {
+.weather p {
+    margin: 0;
+    background-color: #A188A6;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+.events.dark h2 , .weather.dark h2, .spotlight.dark h2, .weather.dark p {
     background-color:#5D4360;
     color: white;
 }

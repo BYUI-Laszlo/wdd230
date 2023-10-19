@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="images/kobanya.png" alt="Kőbánya logo"></div>
+        <div class="logo"><img src="images/kobanya.webp" alt="Kőbánya logo"></div>
         <H1>Kőbánya Chamber of Commerce</H1>
         <button id="dark-btn"></button>
     </header>
@@ -33,7 +33,11 @@
     </nav>
     <main>
         <div class="hero-box"> 
-            <img src="images/tmp.jpg" alt="hero image">
+            <picture>
+                <source srcset="images/wdd230-org-large.webp" media="(min-width: 1100px)">
+                <source srcset="images/wdd230-org-medium.webp" media="(min-width: 550px)">
+                <img src="images/wdd230-org-small.webp" alt="hero image">
+            </picture>
         </div>
         <div class="button-box">
             <a class="join-button" href="#">Join the chamber</a>
@@ -45,6 +49,7 @@
         <section class="weather">
             <h2>Weather</h2>
             <img src="images/weather-tmp.jpg" alt="weather">
+            <p class="windchill"></p>
         </section>
         <section class="spotlight">
             <div>
@@ -81,5 +86,6 @@
             <p id="lastModified"></p>
     </footer>
     <script src="scripts/base.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
