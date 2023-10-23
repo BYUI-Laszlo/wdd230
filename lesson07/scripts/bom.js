@@ -14,22 +14,21 @@ button.addEventListener("click", () => {
 
 function displayList(item) {
     const listItm = document.createElement("li");
-        const listBtn = document.createElement("button");
-        listItm.textContent = input.value;
-        listBtn.textContent = "❌";
-        listBtn.ariaLabel = "Delete";
-        listItm.append(listBtn);
-        list.append(listItm);
-        listBtn.addEventListener("click", () => {
-            list.removeChild(listItm);
-            deleteChapter(listItm.textContent)
-            input.focus();
-        });
+    const listBtn = document.createElement("button");
+    listItm.textContent = /*input.value*/ item;
+    listBtn.textContent = "❌";
+    listBtn.ariaLabel = "Delete";
+    listItm.append(listBtn);
+    list.append(listItm);
+    listBtn.addEventListener("click", () => {
+        list.removeChild(listItm);
+        deleteChapter(listItm.textContent)
+        input.focus();
+    });
 }
 
-
 let chaptersArray = getChapterList() || [];
-chaptersArray.array.forEach(chapter => {
+chaptersArray.forEach(chapter => {
     displayList(chapter);
 });
 
