@@ -128,6 +128,10 @@ section li {
   list-style-type: none;
   padding: 5px;
 }
+.info {
+  display: flex;
+  flex-direction: column;
+}
 #map-container {
     display: flex;
     justify-content: center;
