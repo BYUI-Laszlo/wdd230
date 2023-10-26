@@ -242,3 +242,19 @@ footer {
 .discover-main {
     margin-top: 40px;
 }
+.discover-main section {
+     width: 90%;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+.discover-main section h2 {
+    margin: 0;
+    background-color: #A188A6;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+.discover-main section p {
+    padding: 10px;
+}
