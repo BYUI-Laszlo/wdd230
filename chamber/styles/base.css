@@ -117,7 +117,7 @@ main {
 .hero-box {
     position: relative;
     grid-column: 1/2;
-    /*grid-row: 1/2;*/
+    grid-row: 1/2;
 }
 .hero-box img {
     width: 100%;
@@ -238,4 +238,7 @@ footer {
     color: white;
     font-size: 0.5rem;
     text-align: center;
+}
+.discover-main {
+    margin-top: 40px;
 }
