@@ -267,3 +267,8 @@ footer {
 .discover-images img {
     margin-bottom: 1rem;
 }
+.distinfo {
+    max-width: 390px;
+    display: block;
+    margin: 10px auto;
+}
