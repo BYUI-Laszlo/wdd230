@@ -259,3 +259,10 @@ footer {
 .discover-main section p {
     padding: 10px;
 }
+.discover-images {
+    width: 400px;
+    margin: 0 auto;
+}
+.discover-images img {
+    margin-bottom: 1rem;
+}

@@ -139,6 +139,11 @@ section li {
     height: 225px;
     margin-top: 30px;
 }
+iframe {
+  width: 352px; 
+  height: 225px; 
+  border: none;
+}
 footer {
   height: 150px;
   background-color: #222629;

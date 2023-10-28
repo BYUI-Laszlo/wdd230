@@ -10,4 +10,10 @@
         height: 50px;
         font-size: 2rem;
     }
+    .discover-images img {
+        transition: transform 0.3s;
+    }    
+    .discover-images img:hover {
+        transform: scale(1.5);
+    }
 }
