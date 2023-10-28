@@ -248,6 +248,7 @@ footer {
     border: 1px solid rgba(0,0,0,.3);
     border-radius: 10px;
     margin: 0 auto;
+    margin-bottom: 1rem;
     background-color: white;
 }
 .discover-main section h2 {
