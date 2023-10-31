@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Rate and Register</title>
+</head>
+<body>
+    <div class="content">
+      <header>
+        <img id="logo"
+          src="images/profile-picture-s.webp"
+          alt="Tem László profile picture"
+        >
+        <h1>Tem László</h1>
+      </header>
+      <nav>
+        <button id="burger"></button>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lesson03/chamber-site-plan.html" target="_blank">Site Plan</a></li>
+          <li><a href="chamber/" target="_blank">Chamber</a></li>
+          <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
+          <li><a
+          href="https://www.churchofjesuschrist.org/study/scriptures/bofm/omni/1?lang=eng&id=9"
+          target="_blank">Scripture</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <form action="record.html" method="get" target="_blank">
+            <div class="errorMessage">Missmatching Passwords!</div>
+            <label>Username*<input id="username" type="text" name="username" required></label>
+            <label>Enter Password*<input id="passwordMain" type="password" name="passwordMain" pattern="[A-Za-z0-9]{8,}" required></label>
+            <label>Re-enter Password*<input id="passwordConf" type="password" name="passwordConf" pattern="[A-Za-z0-9]{8,}" required></label>
+            <label>Email*<input id="email" type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$/i" required></label>
+            <label>Page Rating<input id="pageRating" type="range" name="pageRating" min="1" max="10" step="1" list="ratingValues"></label>
+            <datalist id="ratingValues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <input type="submit" value="Rate and Register" class="submitBtn">
+      </main>
+       <footer>
+        <p>
+          <span id="currentYear"></span><br>
+          <span>Tem László</span> <br>
+          <span>Hungary</span>
+        </p>
+        <p id="lastModified"></p>
+      </footer>
+    </div>
+    <script src="scripts/base.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>

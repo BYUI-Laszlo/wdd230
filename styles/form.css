@@ -1,0 +1,46 @@
+:root {
+    --base-font: "Source Sans 3";
+    --heading-font: Quicksand;
+    --heading-bakground: #fdb542;
+}
+
+body {
+    font-family: var(--base-font);
+}
+
+form label {
+    margin-left: 1rem;
+}
+
+form input {
+    display: block;
+    margin: 0 0 1.5rem 1rem;
+    height: 44px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.errorMessage {
+    color: red;
+    visibility: hidden;
+    margin: 0 0 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+#pageRating {
+    margin-bottom: 0;
+}
+
+#ratingValues {
+    display: flex;
+    margin-left: 1.1rem;
+    justify-content: space-between;
+    width: 90%;
+}
+
+form input.submitBtn {
+    font-size: 1.5em;
+    font-family: var(--heading-font);
+    background-color: var(--heading-bakground);
+    margin-top: 2rem;
+}
