@@ -43,4 +43,5 @@ form input.submitBtn {
     font-family: var(--heading-font);
     background-color: var(--heading-bakground);
     margin-top: 2rem;
+    font-weight: bold;
 }
