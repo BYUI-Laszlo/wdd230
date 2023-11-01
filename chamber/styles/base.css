@@ -240,6 +240,9 @@ footer {
     font-size: 0.5rem;
     text-align: center;
 }
+
+/*---- Discover ----*/
+
 .discover-main {
     margin-top: 60px;
 }
@@ -271,4 +274,84 @@ footer {
     max-width: 390px;
     display: block;
     margin: 10px auto;
+}
+
+/*---- Join ----*/
+
+.join-main {
+    margin-top: 30px;
+}
+form label.top {
+    display: block;
+    padding-top: 1rem;
+}
+form label.top input {
+    display: block;
+    height: 44px;
+    border: solid 1px rgba(0,0,0,.3);
+    border-radius: 4px;
+    width: 100%;
+    max-width: 20rem;
+    padding: .75rem;
+}
+form label.top textarea{
+    display: block;
+    border: solid 1px rgba(0,0,0,.3);
+    border-radius: 4px;
+    width: 100%;
+    height: 15rem;
+    max-width: 20rem;
+    padding: .75rem;
+    overflow-y: auto;
+    resize: none;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 3px solid #5D4360;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: #5D4360;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-weight: bold;
+}
+#submitBtn {
+    margin: 0 auto 2rem auto;
+    width: 90%;
+    height: 44px;
+    max-width: 20rem;
+    text-align: center;
+    display: block;
+    background-color: #5D4360;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer
+}
+.benefit {
+    display: none;
+}
+
+/*---- Thankyou ----*/
+
+.thankyou {
+    width: 100%;
+    max-width: 20rem;
+    height: 10rem;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    border: 3px solid #5D4360;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
 }

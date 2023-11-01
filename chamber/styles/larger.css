@@ -16,4 +16,17 @@
     .discover-images img:hover {
         transform: scale(1.5);
     }
+    form label.top input {
+        height: 1rem;
+    }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    .benefit {
+        line-height: 1.5;
+    }
+    #submitBtn:hover {
+        background-color: #A188A6;
+        color: brown;
+    }
 }
