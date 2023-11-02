@@ -304,7 +304,8 @@ body.dark main form div div {
     color: white;
 }
 body.dark main form fieldset label input,
-body.dark main form fieldset textarea {
+body.dark main form fieldset textarea,
+body.dark main div.thankyou {
     background-color: black;
     color: white;
 }
@@ -329,7 +330,8 @@ form fieldset {
     border-radius: 10px;
     padding: .5rem 2%;
 }
-body.dark main form fieldset {
+body.dark main form fieldset,
+body.dark main div.thankyou {
     border: 3px solid #A188A6;
 }
 form legend {
