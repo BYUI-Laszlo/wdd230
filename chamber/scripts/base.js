@@ -8,10 +8,5 @@ document.querySelector('#burger').addEventListener('click', () => {
 
 document.querySelector("#dark-btn").addEventListener("click", () => {
 	document.querySelector("#dark-btn").classList.toggle("dark");
-	document.querySelector(".events").classList.toggle("dark");
-	document.querySelector(".spotlight").classList.toggle("dark");
-	document.querySelector(".weather").classList.toggle("dark");
 	document.querySelector("body").classList.toggle("dark");
-	document.querySelector("nav").classList.toggle("dark");
-	document.querySelector(".active").classList.toggle("dark");
 });

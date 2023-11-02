@@ -93,7 +93,7 @@ nav a {
   font-size: 1.5em;
   color: #050331;
 }
-nav.dark a {
+body.dark nav a{
     color: white;
 }
 nav a:hover {
@@ -107,7 +107,7 @@ nav a:hover {
     border: solid 3px #5D4360;
     border-radius: 10px;
 }
-.active.dark {
+body.dark nav ul li a.active {
     border: solid 3px #bb7cc2;
 }
 main {
@@ -163,26 +163,27 @@ h2 {
     font-size: 1.2rem;
     font-family: "Playfair Display"; 
 }
-.events , .weather , .spotlight div {
+body main section,
+.spotlight section {
     width: 90%;
     border: 1px solid rgba(0,0,0,.3);
     border-radius: 10px;
     margin: 0 auto;
     background-color: white;
 }
-.events.dark , .weather.dark, .spotlight.dark div {
+body.dark main section { 
     background-color: black;
 }
-.events p, .spotlight div p {
+body main section p{
     padding: 10px;
 }
-.events.dark p, .spotlight.dark div p {
+body.dark main section p {
     color: white;
 }
-.spotlight div {
+.spotlight section {
     margin-bottom: 10px;
 }
-.events h2 , .weather h2, .spotlight h2 {
+body main section h2 {
     margin: 0;
     background-color: #A188A6;
     border-radius: 10px 10px 0 0;
@@ -194,7 +195,8 @@ h2 {
     border-radius: 0 0 10px 10px;
     padding: 10px;
 }
-.events.dark h2 , .weather.dark h2, .spotlight.dark h2, .weather.dark p {
+body.dark main section h2,
+body.dark main section.weather p {
     background-color:#5D4360;
     color: white;
 }
@@ -263,6 +265,9 @@ footer {
 .discover-main section p {
     padding: 10px;
 }
+body.dark main div label {
+    color: white;
+}
 .discover-images {
     width: 400px;
     margin: 0 auto;
@@ -294,6 +299,15 @@ form label.top input {
     max-width: 20rem;
     padding: .75rem;
 }
+body.dark main form fieldset label,
+body.dark main form div div {
+    color: white;
+}
+body.dark main form fieldset label input,
+body.dark main form fieldset textarea {
+    background-color: black;
+    color: white;
+}
 form label.top textarea{
     display: block;
     border: solid 1px rgba(0,0,0,.3);
@@ -315,11 +329,17 @@ form fieldset {
     border-radius: 10px;
     padding: .5rem 2%;
 }
+body.dark main form fieldset {
+    border: 3px solid #A188A6;
+}
 form legend {
     color: #5D4360;
     margin: 0 1rem;
     padding: 0 .5rem;
     font-weight: bold;
+}
+body.dark main form legend {
+    color: #A188A6;
 }
 #submitBtn {
     margin: 0 auto 2rem auto;
