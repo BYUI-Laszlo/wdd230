@@ -330,6 +330,9 @@ form fieldset {
     border-radius: 10px;
     padding: .5rem 2%;
 }
+form fieldset.membership {
+    margin: 0 0 2rem 0;
+}
 body.dark main form fieldset,
 body.dark main div.thankyou {
     border: 3px solid #A188A6;
