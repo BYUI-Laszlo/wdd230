@@ -1,0 +1,13 @@
+{
+    "familyName:" : "Simpson",
+    "movedToWard": "12/17/1989",
+    "numberOfFMembers" : "5",
+    "visitedBishopric" : "true",
+    "fMembers" : [
+        "Homer",
+        "Marge",
+        "Bart",
+        "Lisa",
+        "Maggie"
+    ]
+}
