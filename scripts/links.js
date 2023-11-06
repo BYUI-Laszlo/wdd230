@@ -6,7 +6,6 @@ async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
     displayLinks(data.lessons);
-    console.log(data);
 }
 
 const displayLinks = (lessons) => {
