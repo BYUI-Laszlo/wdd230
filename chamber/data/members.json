@@ -1,0 +1,60 @@
+{
+    "members" : [
+        {
+            "name" : "Dreher Zrt.",
+            "address" : "Budapest, Dreher Antal út 3, 1106",
+            "phone" : "(06 1) 432 9700",
+            "url" : "https://www.dreherzrt.hu/",
+            "image" : "images/brewery2.webp",
+            "memberlevel" : "gold"
+        },
+         {
+            "name" : "Új köztemető",
+            "address" : "Budapest, Kozma u. 8-10, 1108",
+            "phone" : "(06 1) 700 7596",
+            "url" : "https://bti.budapestikozmuvek.hu/uj-koztemeto",
+            "image" : "images/cemetery1.webp",
+            "memberlevel" : "gold"
+        },
+         {
+            "name" : "Budapesti Fegyház és Börtön",
+            "address" : "Budapest, Kozma u. 13, 1108",
+            "phone" : "(06 1) 432 5900",
+            "url" : "https://bv.gov.hu/hu/intezetek/budapesti/kapcsolat",
+            "image" : "images/prison1.webp",
+            "memberlevel" : "gold"
+        },
+         {
+            "name" : "Gelato Art, FagyiZó-Na Cukrászda",
+            "address" : "Budapest Sibrik Miklós út &, Mádi u., 1108",
+            "phone" : "(06 30) 791 8020",
+            "url" : "https://www.gelatoart.hu/",
+            "image" : "images/gelato.webp",
+            "memberlevel" : "silver"
+        },
+         {
+            "name" : "Baltazár üzlet bolt",
+            "address" : "Budapest Harmat u. 113, 1108",
+            "phone" : "(06 50) 107 1750",
+            "url" : "http://www.baltazaruzlet.hu/",
+            "image" : "images/baltazar.webp",
+            "memberlevel" : "bronze"
+        },
+         {
+            "name" : "Köki Terminál",
+            "address" : " Budapest Vak Bottyán u. 75. a-c, 1191", 
+            "phone" : "(06 1) 9191 333",
+            "url" : "https://kokibevasarlokozpont.hu/",
+            "image" : "images/terminal.webp",
+            "memberlevel" : "bronze"
+        },
+         {
+            "name" : "Kőrösi Kulturális Nonprofit Kft.",
+            "address" : "Budapest X. ker. Szent László tér 7-14, 1105",
+            "phone" : "(06 1) 260 9959",
+            "url" : "http://www.korosi.org/",
+            "image" : "images/koszi.webp",
+            "memberlevel" : "non-profit"
+        }
+    ]
+}
