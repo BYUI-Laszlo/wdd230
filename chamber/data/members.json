@@ -6,7 +6,7 @@
             "phone" : "(06 1) 432 9700",
             "url" : "https://www.dreherzrt.hu/",
             "image" : "images/brewery2.webp",
-            "memberlevel" : "gold"
+            "memberlevel" : "Gold"
         },
          {
             "name" : "Új köztemető",
@@ -14,7 +14,7 @@
             "phone" : "(06 1) 700 7596",
             "url" : "https://bti.budapestikozmuvek.hu/uj-koztemeto",
             "image" : "images/cemetery1.webp",
-            "memberlevel" : "gold"
+            "memberlevel" : "Gold"
         },
          {
             "name" : "Budapesti Fegyház és Börtön",
@@ -22,7 +22,7 @@
             "phone" : "(06 1) 432 5900",
             "url" : "https://bv.gov.hu/hu/intezetek/budapesti/kapcsolat",
             "image" : "images/prison1.webp",
-            "memberlevel" : "gold"
+            "memberlevel" : "Gold"
         },
          {
             "name" : "Gelato Art, FagyiZó-Na Cukrászda",
@@ -30,7 +30,7 @@
             "phone" : "(06 30) 791 8020",
             "url" : "https://www.gelatoart.hu/",
             "image" : "images/gelato.webp",
-            "memberlevel" : "silver"
+            "memberlevel" : "Silver"
         },
          {
             "name" : "Baltazár üzlet bolt",
@@ -38,7 +38,7 @@
             "phone" : "(06 50) 107 1750",
             "url" : "http://www.baltazaruzlet.hu/",
             "image" : "images/baltazar.webp",
-            "memberlevel" : "bronze"
+            "memberlevel" : "Bronze"
         },
          {
             "name" : "Köki Terminál",
@@ -46,7 +46,7 @@
             "phone" : "(06 1) 9191 333",
             "url" : "https://kokibevasarlokozpont.hu/",
             "image" : "images/terminal.webp",
-            "memberlevel" : "bronze"
+            "memberlevel" : "Bronze"
         },
          {
             "name" : "Kőrösi Kulturális Nonprofit Kft.",
@@ -54,7 +54,7 @@
             "phone" : "(06 1) 260 9959",
             "url" : "http://www.korosi.org/",
             "image" : "images/koszi.webp",
-            "memberlevel" : "non-profit"
+            "memberlevel" : "Non-profit"
         }
     ]
 }
