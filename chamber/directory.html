@@ -8,13 +8,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Tem László">
-    <meta name="description" content="This is the homepage of the Kőbánya Chamber of Commerce website. Its goal is  to promote businesses, employment, economic development and the comunity itself.">
+    <meta name="description" content="This is the discover of the Kőbánya Chamber of Commerce website. Here you can get information about our members.">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
-    <title>Home - Kőbánya Chamber of Commerce</title>
+    <title>Directory - Kőbánya Chamber of Commerce</title>
 </head>
 <body>
     <header>
@@ -25,46 +25,18 @@
     <nav class="navigation">
         <button id="burger"></button>
         <ul>
-            <li><a class="active" href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a class="active" href="#">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main>
-        <div class="hero-box"> 
-            <picture>
-                <source srcset="images/wdd230-org-large.webp" media="(min-width: 1100px)">
-                <source srcset="images/wdd230-org-medium.webp" media="(min-width: 550px)">
-                <img src="images/wdd230-org-small.webp" alt="hero image">
-            </picture>
-        </div>
-        <div class="button-box">
-            <a class="join-button" href="join.html">I wish to Join</a>
-        </div>
-        <section class="events">
-            <h2>Events</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia a aspernatur explicabo dolor, dolore molestias? Similique itaque adipisci quod quisquam, delectus fugiat unde laborum, asperiores aut, tempora exercitationem fuga voluptates!</p>
-        </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <img src="images/weather-tmp.jpg" alt="weather">
-            <p class="windchill"></p>
-        </section>
-        <div class="spotlight">
-            <section>
-                <h2>Member1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quidem, asperiores ab, sequi voluptas perspiciatis suscipit molestias itaque libero officiis explicabo distinctio recusandae assumenda quasi? Non pariatur sed a odit!</p>
-            </section>
-            <section>
-                <h2>Member2</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque culpa consectetur exercitationem iste soluta accusamus deleniti illo beatae expedita. Laudantium impedit, aut atque dolorum debitis est omnis perspiciatis et deserunt!</p>
-            </section>
-            <section>
-                <h2>Member3</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, dolor. Accusantium impedit modi perspiciatis maxime laudantium, laborum eligendi minus nam dolor eaque corporis tenetur sint quam! Dolorem odio incidunt et!</p>
-            </section>
-        </div>
+    <div class="switchContainer">
+        <button id="gridBtn">⏹️Grid</button>
+        <button id="listBtn">📄List</button>
+    </div>
+    <main class="directory-main grid">        
+     
     </main>
     <footer>
          <div class="footer-contact">
@@ -86,6 +58,6 @@
             <p id="lastModified"></p>
     </footer>
     <script src="scripts/base.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 </html>

@@ -29,4 +29,11 @@
         background-color: #A188A6;
         color: brown;
     }
+    body main.list section {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    }
+    body main.list section p.phone, 
+    body main.list section p.address {
+        display: block;
+    }
 }
