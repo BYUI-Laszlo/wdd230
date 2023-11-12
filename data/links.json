@@ -106,15 +106,11 @@
             ]
         },
         {
-            "lesson" : "09",
+            "lesson" : "10",
             "links" : [
                 {
-                    "url" : "lesson09/new-ward-members.json",
-                    "title" : "JSON"
-                },
-                {
-                    "url" : "lesson09/prophets.html",
-                    "title" : "Prophets"
+                    "url" : "lesson10/weather.html",
+                    "title" : "Weather"
                 }
             ]
         }
