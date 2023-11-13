@@ -121,7 +121,7 @@ section {
 section p {
   padding: 10px ;
 }
-section span::before {
+section.card span::before {
   content: "🗓️";
 }
 section li {
@@ -157,6 +157,12 @@ footer {
 footer p {
   text-align: center;
 }
+.info :not(h3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*-------------------------------------*/
 
 @media screen and (min-width: 800px){
