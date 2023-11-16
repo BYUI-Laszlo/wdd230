@@ -42,13 +42,40 @@
         <div class="button-box">
             <a class="join-button" href="join.html">I wish to Join</a>
         </div>
+        <div class="banner">
+            <span>Dear visitors and users, please attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.</span><button class="bannerBtn">❌</button>
+        </div>
         <section class="events">
             <h2>Events</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia a aspernatur explicabo dolor, dolore molestias? Similique itaque adipisci quod quisquam, delectus fugiat unde laborum, asperiores aut, tempora exercitationem fuga voluptates!</p>
         </section>
         <section class="weather">
-            <h2>Weather</h2>
-            <img src="images/weather-tmp.jpg" alt="weather">
+            <h2 class="weatherTitle">Weather</h2>
+            <div class="weatherBox">
+                <label>Today</label>
+                <img class="wIcon" src="" alt="">
+                <span class="wTemp"></span>            
+                <span class="wDescription"></span>
+                <div>
+                    <div class="forecastBox">
+                        <section>
+                            <p class="day1name"></p>
+                            <span class="day1min"></span>
+                            <span class="day1max"></span>
+                        </section>
+                        <section>
+                            <p class="day2name"></p>
+                            <span class="day2min"></span>
+                            <span class="day2max"></span>
+                        </section>
+                        <section>
+                            <p class="day3name"></p>
+                            <span class="day3min"></span>
+                            <span class="day3max"></span>
+                        </section>
+                    </div>
+                </div>
+            </div>
             <p class="windchill"></p>
         </section>
         <div class="spotlight">
@@ -86,6 +113,7 @@
             <p id="lastModified"></p>
     </footer>
     <script src="scripts/base.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/cweather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>
