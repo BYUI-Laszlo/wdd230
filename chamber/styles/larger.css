@@ -10,6 +10,9 @@
         height: 50px;
         font-size: 2rem;
     }
+    .events ul li {
+        padding: .75rem 0;
+    }
     .discover-images img {
         transition: transform 0.3s;
     }    

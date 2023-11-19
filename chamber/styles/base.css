@@ -209,7 +209,8 @@ body main section p{
     padding: 10px;
 }
 body.dark main section p,
-body.dark main section span {
+body.dark main section span,
+body.dark main section.events ul li {
     color: white;
 }
 .spotlight section {
