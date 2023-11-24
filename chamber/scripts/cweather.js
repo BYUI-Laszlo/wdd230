@@ -16,7 +16,7 @@ async function apiFetch() {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
+      //console.log(data);
       displayWeather(data);
       displayWindchill(data);
     } else {
@@ -47,13 +47,13 @@ async function forecastApiFetch() {
     const forecastResponse = await fetch(forecastUrl);
     if (forecastResponse.ok) {
       const forecastData = await forecastResponse.json();
-      console.log(forecastData);
+      //console.log(forecastData);
       displayForecast(forecastData);
     } else {
         throw Error(await forecastResponse.text());
     }
   } catch (forecastError) {
-      console.log(forecastError);
+      //console.log(forecastError);
   }
 }
 
@@ -88,8 +88,8 @@ function displayForecast(forecastData) {
         day3.max = Math.max(day3.max, forecast.main.temp_max);
     }
     });
-    console.log(day1, day2, day3);
-       const d1name = document.querySelector(".day1name");
+    //console.log(day1, day2, day3);
+    const d1name = document.querySelector(".day1name");
     d1name.innerHTML = day1.day;
     const d2name = document.querySelector(".day2name");
     d2name.innerHTML = day2.day;
