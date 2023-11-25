@@ -16,7 +16,8 @@ function buttonChange() {
     else if (silver.checked) {
         benefit.innerHTML = `&bull; Invitation to Events<br>
         &bull; Access to Trainings<br>
-        &bull; 10% Event Discount`;
+        &bull; 10% Event Discount<br>
+        &bull; Organization Spotlight`;
     }
     else {
         benefit.innerHTML = `&bull; Invitation to Events<br>
