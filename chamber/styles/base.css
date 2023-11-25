@@ -428,7 +428,8 @@ body.dark main form legend {
     color: white;
     cursor: pointer
 }
-.benefit {
+.benefit,
+.benefitsLarge {
     display: none;
 }
 
