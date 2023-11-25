@@ -17,6 +17,10 @@
     .events ul li {
         padding: .75rem 0;
     }
+    .discover-main {
+        display: grid;
+        grid-template-columns: 45% auto;
+    }
     .discover-images img {
         transition: transform 0.3s;
     }    
