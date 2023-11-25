@@ -121,7 +121,7 @@ section {
 section p {
   padding: 10px ;
 }
-section.card span::before {
+section.weeks span::before {
   content: "🗓️";
 }
 section li {
