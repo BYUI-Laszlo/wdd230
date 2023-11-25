@@ -43,4 +43,7 @@
     body main.list section p.address {
         display: block;
     }
+    body main.grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
