@@ -148,6 +148,9 @@
         background-color: #FFD700;
         padding: .3rem; 
     }
+    .benefitsLarge ul li {
+        margin: 0.3rem 0;
+    }
     body.dark main div.benefitsLarge h3:nth-of-type(1),
     body.dark main div.benefitsLarge ul li {
         color: white;
