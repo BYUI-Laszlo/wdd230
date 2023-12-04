@@ -1,0 +1,21 @@
+/*@media screen and (min-width: 550px){
+header {
+        display: grid;
+        grid-template-columns: 100px 3fr 10%;
+    }
+    .logo {
+        width: 238.250px;
+        max-height: 75.375px;
+        padding: 0;
+        padding-left: 20px;
+        display: flex;
+        align-self: center;
+        justify-self: left;
+    }
+    h1 {
+        font-size: 1.5rem;
+        padding: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+}*/
