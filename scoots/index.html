@@ -39,11 +39,11 @@
                 <img src="images/hero-small.webp" alt="East Cozumel beach">
             </picture>
             <div class="button-box">
-                <a class="rent-button" href="#">I wish to rent a ride</a>
+                <a href="reservations.html">Rent a Ride</a>
             </div>
         </div>
         <div class="weather data">
-             <h2>Weather Information</h2>
+             <h2>Cozumel Weather Information</h2>
              <h3>Today</h3>
              <div>
                 <div class="weatherImgBox"><img class="d1wicon" src="#" alt="#"></div>
@@ -79,9 +79,28 @@
             <img src="images/paper.webp" alt="paper and pen" loading="lazy">
         </div>
         <div class="data">
-            <h2></h2>
+            <h2>Rental Types</h2>
             <table>
-                
+                <thead>
+                    <tr>
+                        <td colspan="6">Scoots</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td colspan="2">Reservation</td>
+                        <td colspan="2">Walk-In</td>
+                    </tr>
+                    <tr>
+                        <td>Rental Type</td>
+                        <td>Max. Persons</td>
+                        <td>Half Day (3 hrs)</td>
+                        <td>Full Day</td>
+                        <td>Half Day (3 hrs)</td>
+                        <td>Full Day</td>
+                    </tr>
+                </thead>
+                <tbody id="indexTable">
+                </tbody>
             </table>
         </div>
         <div>
@@ -116,5 +135,6 @@
     </footer>
     <script src="scripts/base.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/table.js"></script>
 </body>
 </html>

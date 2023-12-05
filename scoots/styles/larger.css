@@ -2,4 +2,11 @@
     h1 {
             font-size: 3.5rem;
     }
+
+
+/*---- Rentals ----*/
+
+.main-rentals > h2 {
+        font-size: 5rem;
+    }
 }
