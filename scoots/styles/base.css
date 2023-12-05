@@ -263,3 +263,89 @@ footer > p {
 body.dark main div#cards section {
     border: solid 2px #EADA80;   
 }
+
+/*---- Reservations----*/
+
+form {
+    min-width: 375px;
+    max-width: 15rem;
+    margin: 0 auto;
+}
+fieldset {
+    border: solid 2px #D85F0E;
+    background-color: #CDBEFC;
+}
+body.dark fieldset {
+    border: solid 2px #EADA80;
+    background-color: #4F417B;
+}
+form legend {
+    font-weight: bold;
+    color: #D85F0E;
+    padding: 0 .5rem;
+}
+body.dark form legend {
+    color: #EADA80;
+}
+form label.top {
+    display: block;
+    padding-top: 1rem;
+}
+form label.top input {
+    display: block;
+    height: 44px;
+    width: 90%;
+    margin: 0 auto;
+}
+form input,
+form textarea,
+form select {
+    background-color: #E9E9E9;
+}
+body.dark form input,
+body.dark form textarea,
+body.dark form select {
+    background-color: #2A2A2A;
+    color: #fff;
+}
+form label.sbs {
+    display: block;
+}
+.rentalField {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.rentalField h3 {
+    grid-column: 1/3;
+}
+.rentalField label {
+    grid-column:  1/2;
+    height: 44px;
+}
+.rentalField select {
+    grid-column: 2/3;
+    display: none;
+}
+#comments {
+    grid-column: 1/3;
+    width: 90%;
+    height: 10rem;
+    overflow-y: auto;
+    resize: none;
+    margin: 0 auto;
+}
+#submitBtn {
+    background-color: #EADA80;
+    color: #D85F0E;
+    height: 44px;
+    border: solid 2px #D85F0E;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+#submitBtn:hover {
+    background-color: #D85F0E;
+    color: #fff;
+}

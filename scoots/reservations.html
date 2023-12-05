@@ -31,8 +31,124 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main>
-        
+    <main class="main-reservations">
+        <div class="agreement data">
+            <h2>Rental Services and Agreements</h2>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name*<input type="text" id="name" name="name" placeholder="John Doe" pattern="[A-Za-z][A-Za-z -\.]{4,}" required></label>
+                <label class="top">Phone Number*<input type="tel" id="phone" name="phone" placeholder="+52 1234 4568" pattern="[0-9()+ -]{7,}" required></label>
+                <label class="top">Email Address*<input type="email" id="email" name="email" placeholder="my@email.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required></label>
+                <label class="top">Home State / Country*<input type="text" id="country" name="country" pattern="[A-Za-z][A-Za-z -]{2,}" required></label>
+                <label class="top">Cruise Line<input type="text" id="cruise" name="cruise"></label>
+            </fieldset>
+            <fieldset class="rentalField">
+                <legend>Rental Parameters</legend>
+                <h3>Rental Duration</h3>
+                <label class="sbs"><input type="radio" id="halfRadio" name="Days" value="halfDay"checked onchange="raidoList()">Half Day</label>
+                <label class="sbs"><input type="radio" id="fullRadio" name="Days" value="fullDay" onchange="raidoList()">Full Day</label>
+                <select name="Days" id="fullNumber">                    
+                    <option value="1">1 day</option>
+                    <option value="2">2 days</option>
+                    <option value="3">3 days</option>
+                    <option value="4">4 days</option>
+                    <option value="5">5 days</option>
+                    <option value="6">6 days</option>
+                    <option value="7">7 days</option>
+                </select>
+                <h3>Select Vehicle</h3>
+                <Label class="sbs"><input type="checkbox" id="metroCheckbox" class="vehicleCheckbox" name="metro" value="metro" onchange="toggleDropdown('metro')"> Honda Metro Scooter</Label>
+                <select name="metro" id="metroNumber">                    
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                 <Label class="sbs"><input type="checkbox" id="dioCheckbox" class="vehicleCheckbox" name="dio" value="dio" onchange="toggleDropdown('dio')"> Honda Dio Scooter</Label>
+                <select name="dio" id="dioNumber">                    
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <Label class="sbs"><input type="checkbox" id="pcx150Checkbox" class="vehicleCheckbox" name="pcx150" value="pcx150" onchange="toggleDropdown('pcx150')"> Honda PCX150 Scooter</Label>
+                <select name="pcx150" id="pcx150Number">                    
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <Label class="sbs"><input type="checkbox" id="atvCheckbox" class="vehicleCheckbox" name="atv" value="atv" onchange="toggleDropdown('atv')"> Honda Pioneer ATV</Label>
+                <select name="atv" id="atvNumber">                    
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <Label class="sbs"><input type="checkbox" id="jeep2dCheckbox" class="vehicleCheckbox" name="jeep2d" value="jeep2d" onchange="toggleDropdown('jeep2d')"> Jeep Wrangler - 2 door</Label>
+                <select name="jeep2d" id="jeep2dNumber">                    
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <Label class="sbs"><input type="checkbox" id="jeep4dCheckbox" class="vehicleCheckbox" name="jeep4d" value="jeep4d" onchange="toggleDropdown('jeep4d')"> Jeep Wrangler - 2 door</Label>
+                <select name="jeep4d" id="jeep4dNumber">                    
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <h3>Special Accommodations/Comments</h3>
+                <textarea name="comments" id="comments" placeholder="i.e. need and location of a drop-off request"></textarea>
+            </fieldset>
+            <input type="hidden" id="timeStamp" name="timeStamp">
+            <input type="submit" id="submitBtn" value="Rent a Ride">
+        </form>
     </main>
     <footer>        
         <div class="contact">
@@ -61,6 +177,6 @@
        <p>Copyright © 2023 Cozumel Scoots. All rights reserved.</p>
     </footer>
     <script src="scripts/base.js"></script>
-    <script src="scripts/weather.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 </html>

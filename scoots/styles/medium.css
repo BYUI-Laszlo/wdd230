@@ -92,4 +92,17 @@ header {
         padding: 1rem;
         gap: 1rem;
     }
+
+    /*---- Reservations ---*/
+    
+    form {
+        margin-top: 2rem;
+    }
+    .main-reservations div.agreement {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .main-reservations div.agreement li {
+        padding: 1.2rem;
+    }
 }
