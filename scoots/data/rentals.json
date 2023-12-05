@@ -4,103 +4,103 @@
             "type" : "Honda Metro Scooter",
             "persons" : "1",
             "pic" : "images/metro.webp",
-            "reservation" : [
+            "reservation" :
                 {
                     "half" : "20",
                     "full" : "30"
                 }
-            ],
-            "walkin" : [
+            ,
+            "walkin" : 
                 {
                     "half" : "25",
                     "full" : "35"
                 }
-            ]
+            
         },
         {
             "type" : "Honda Dio Scooter",
             "persons" : "2",
             "pic" : "images/dio.webp",
-            "reservation" : [
+            "reservation" : 
                 {
                     "half" : "30",
                     "full" : "40"
                 }
-            ],
-            "walkin" : [
+            ,
+            "walkin" : 
                 {
                     "half" : "35",
                     "full" : "45"
                 }
-            ]
+            
         },
         {
             "type" : "Honda PCX150 Scooter",
             "persons" : "2",
             "pic" : "images/pcx150.webp",
-            "reservation" : [
+            "reservation" : 
                 {
                     "half" : "40",
                     "full" : "50"
                 }
-            ],
-            "walkin" : [
+            ,
+            "walkin" : 
                 {
                     "half" : "45",
                     "full" : "55"
                 }
-            ]
+            
         },
         {
             "type" : "Honda Pioneer ATV",
             "persons" : "4",
             "pic" : "images/pioneeratv.webp",
-            "reservation" : [
+            "reservation" : 
                 {
                     "half" : "50",
                     "full" : "70"
                 }
-            ],
-            "walkin" : [
+            ,
+            "walkin" : 
                 {
                     "half" : "60",
                     "full" : "80"
                 }
-            ]
+            
         },
         {
             "type" : "Jeep Wrangler - 2 door",
             "persons" : "4",
             "pic" : "images/jeepwrangler2d.webp",
-            "reservation" : [
+            "reservation" : 
                 {
                     "half" : "60",
                     "full" : "85"
                 }
-            ],
-            "walkin" : [
+            ,
+            "walkin" : 
                 {
                     "half" : "70",
                     "full" : "90"
                 }
-            ]
+            
         },
         {
             "type" : "Jeep Wrangler - 4 door with a/c",
             "persons" : "5",
             "pic" : "images/jeepwrangler4d.webp",
-            "reservation" : [
+            "reservation" : 
                 {
                     "half" : "70",
                     "full" : "100"
                 }
-            ],
-            "walkin" : [
+            ,
+            "walkin" : 
                 {
                     "half" : "85",
                     "full" : "125"
                 }
-            ]
+            
         }
     ]
 }
