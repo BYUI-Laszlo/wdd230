@@ -201,6 +201,17 @@ main div img {
 .tomorrow P:nth-of-type(2)::first-letter {
     color: blue;
 }
+table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+table td {
+    text-align: center;
+    border: solid 2px #D85F0E;
+}
+body.dark table td {
+    border: solid 2px #EADA80;
+}
 footer {
     height: auto;
     background-color: #1E1733;
