@@ -211,6 +211,10 @@ table {
 table td {
     text-align: center;
     border: solid 2px #D85F0E;
+    padding: .3rem;
+}
+.agreement li {
+    padding-bottom: 1rem;
 }
 body.dark table td {
     border: solid 2px #EADA80;
@@ -234,6 +238,7 @@ footer div {
 }
 .contact div img {
     padding-right: 1rem;
+    max-width: 50px;
 }
 .social div {
     justify-content: center;
@@ -340,6 +345,7 @@ form label.sbs {
     overflow-y: auto;
     resize: none;
     margin: 0 auto;
+    display: block;
 }
 #submitBtn {
     background-color: #EADA80;
@@ -387,3 +393,18 @@ body.dark div.thanks {
     cursor: pointer;
     margin: 2rem auto;
 }
+
+/*---- Contact ----*/
+
+.main-contact h2 {
+    margin: 1rem auto; 
+}
+iframe {
+  width: 375px; 
+  height: 375px; 
+  border: none;
+}
+.main-contact #comments {
+    margin: 2rem auto;
+}
+

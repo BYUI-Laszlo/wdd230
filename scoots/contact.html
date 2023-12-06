@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
-    <title>Reservations - Scoots</title>
+    <title>Contact - Scoots</title>
 </head>
 <body>
     <header>
@@ -31,8 +31,38 @@
             <li><a class="active" href="#">Contact</a></li>
         </ul>
     </nav>
-    <main>
-        
+    <main class="main-contact">
+            <h2>Contact Us</h2>
+            <div class="contact">
+                <div>
+                    <img src="images/mail.webp" alt="envelope icon"> 
+                    <p>scoots@cozumel.com</p>
+                </div>
+                <div>
+                    <img src="images/phone.webp" alt="phone icon"> 
+                    <p>(+52) 1050 7891</p>
+                </div>
+                <div>
+                    <img src="images/house.webp" alt="house icon"> 
+                    <p>Main office - Av. Rafael E. Melgar Esq, Av Lic Benito Juárez s/n, Centro, 77600 Cozumel, Q.R., Mexico</p>
+                </div>
+                 <div>
+                    <img src="images/house.webp" alt="house icon"> 
+                    <p>77675 San Miguel de Cozumel, Quintana Roo, Mexico</p>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d84590.29189915887!2d-86.89343039381227!3d20.448837463699498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2shu!4v1701856235187!5m2!1sen!2shu" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Message Us</legend>
+                    <label class="top">Full Name*<input type="text" id="name" name="name" placeholder="John Doe" pattern="[A-Za-zÀ-ÖØ-öø-ÿ][A-Za-zÀ-ÖØ-öø-ÿ -\.]{4,}" required></label>
+                    <label class="top">Email Address*<input type="email" id="email" name="email" placeholder="my@email.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required></label>
+                    <textarea name="comments" id="comments" placeholder="Enter your message here" required></textarea>
+                </fieldset>
+                <input type="submit" id="submitBtn" value="Send Message">
+            </form>
     </main>
     <footer>        
         <div class="contact">
