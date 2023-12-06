@@ -1,6 +1,8 @@
-.imgbox {
-    max-width: 960px;
-}
-.data {
-    font-size: 2rem;
+@media screen and (min-width: 1920px){
+    .imgbox {
+        max-width: 960px;
+    }
+    .data {
+        font-size: 2rem;
+    }
 }
