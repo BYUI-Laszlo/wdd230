@@ -114,7 +114,7 @@ nav a:hover {
 .active {
     color: #eada80;
 }
-body.dark main {
+body.dark {
     background-color: #000;
     color: #fff;
 }
@@ -152,13 +152,16 @@ main div img {
     padding: 0 1rem;
     cursor: pointer;
 }
-.button-box:hover {
+.button-box:hover,
+.returnBtn:hover {
     background-color: #D85F0E;
 }
-.button-box:hover a {
+.button-box:hover a,
+.returnBtn:hover a {
     color: #fff;
 }
-.button-box a {
+.button-box a,
+.returnBtn a {
     text-decoration: none;
     color: #D85F0E;
     font-weight: bold;
@@ -308,9 +311,6 @@ body.dark form select {
     background-color: #2A2A2A;
     color: #fff;
 }
-form label.sbs {
-    display: block;
-}
 .rentalField {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -318,13 +318,20 @@ form label.sbs {
 .rentalField h3 {
     grid-column: 1/3;
 }
-.rentalField label {
+form label.sbs {
+    display: flex;
+    align-items: center;
     grid-column:  1/2;
     height: 44px;
+}
+.vehicleCheckbox,
+.vehiceRadioBtn {
+    margin-right: .5rem;
 }
 .rentalField select {
     grid-column: 2/3;
     display: none;
+    height: 44px;
 }
 #comments {
     grid-column: 1/3;
@@ -337,6 +344,7 @@ form label.sbs {
 #submitBtn {
     background-color: #EADA80;
     color: #D85F0E;
+    font-weight: bold;
     height: 44px;
     border: solid 2px #D85F0E;
     border-radius: 10px;
@@ -348,4 +356,34 @@ form label.sbs {
 #submitBtn:hover {
     background-color: #D85F0E;
     color: #fff;
+}
+
+/*---- Thank you ----*/
+
+.thanks {
+    border: solid 2px #D85F0E;
+    width: 60%;
+    max-width: 20rem;
+    margin: 5rem auto 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+body.dark div.thanks {
+    border: solid 2px #EADA80;
+}
+.returnBtn {
+    grid-column: 1/3;
+    height: 44px;
+    background-color: #EADA80;
+    border: solid 2px #D85F0E;
+    border-radius: 10px;
+    max-width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    padding: 0 1rem;
+    cursor: pointer;
+    margin: 2rem auto;
 }
