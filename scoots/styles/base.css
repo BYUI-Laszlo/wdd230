@@ -408,6 +408,8 @@ iframe {
   width: 375px; 
   height: 375px; 
   border: none;
+  display: block;
+  margin: 0 auto;
 }
 .main-contact #comments {
     margin: 2rem auto;
