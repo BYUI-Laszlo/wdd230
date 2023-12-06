@@ -33,26 +33,6 @@ function toggleDropdown(scooterType) {
             dropdown.style.display = 'none';
         }
     }
-/* At least 1 checkbox selected
-document.addEventListener('DOMContentLoaded', function () {
-        const form = document.querySelector('form');
-
-        form.addEventListener('submit', function (event) {
-            const checkboxes = document.querySelectorAll('.vehicleCheckbox');
-            let atLeastOneChecked = false;
-
-            checkboxes.forEach(function (checkbox) {
-                if (checkbox.checked) {
-                    atLeastOneChecked = true;
-                }
-            });
-
-            if (!atLeastOneChecked) {
-                alert('Please select at least one vehicle.');
-                event.preventDefault(); // Prevent form submission
-            }
-        });
-    });*/
 
     // Form submission
 document.addEventListener('DOMContentLoaded', function () {
@@ -74,12 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         const radioF = document.getElementById("fullRadio");
-        const radioH = document.getElementById("halfRadio");
+        const radioFN = document.getElementById("fullNumber");            
         if (!radioF.checked) {
                 // Same for the radiobuttons
-            radioF.value = "";
-        } else {
-            radioH.value = "";
+            radioFN.value = "";
         }
 
         if (!atLeastOneChecked) {
