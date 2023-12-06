@@ -83,7 +83,7 @@ nav {
     height: 44px;
     width: 44px;
     background-color: #EADA80;
-    color: #D85F0E;
+    color: #7F1C06;
     margin: .5rem;
 }
 #burger::before {
@@ -163,7 +163,7 @@ main div img {
 .button-box a,
 .returnBtn a {
     text-decoration: none;
-    color: #D85F0E;
+    color: #7F1C06;
     font-weight: bold;
 }
 .data {
@@ -354,7 +354,7 @@ form label.sbs {
 }
 #submitBtn {
     background-color: #EADA80;
-    color: #D85F0E;
+    color: #7F1C06;
     font-weight: bold;
     height: 44px;
     border: solid 2px #D85F0E;
