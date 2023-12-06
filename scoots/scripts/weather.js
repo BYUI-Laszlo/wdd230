@@ -49,7 +49,7 @@ async function forecastApiFetch() {
     const forecastResponse = await fetch(forecastUrl);
     if (forecastResponse.ok) {
       const forecastData = await forecastResponse.json();
-      console.log(forecastData);
+      //console.log(forecastData);
       displayForecast(forecastData);
     } else {
         throw Error(await forecastResponse.text());
